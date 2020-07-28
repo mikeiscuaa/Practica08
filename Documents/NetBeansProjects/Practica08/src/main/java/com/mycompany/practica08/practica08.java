@@ -14,5 +14,17 @@ public class practica08 {
         System.out.println("hola");
         System.out.println("Haciendo el segundo commit");
         System.out.println("Tambien estos cambios los realizaremos");
+        System.out.println("Sumando los numeros 3+6 "+ suma(3,6));
+        System.out.println("Multiplicando los numeros 3*6 "+ multiplicacion(3,6));
     }
+    public static int suma(int a, int b)
+    {
+        return a+b;
+    }
+    public static int multiplicacion(int a, int b)
+    {
+        return a*b;
+    }
+    
+    
 }
